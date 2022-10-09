@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navIcon{
+  width: 3rem;
+}
+.flexContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.linStyle {
+  text-decoration: none;
+
+}
+.contentCenter{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.active {
+  color: grey;
+  /*pointer-events: none;*/
+  text-decoration: none;
+}
+
+.disable {
+  color: white;
+  text-decoration: none;
+}
