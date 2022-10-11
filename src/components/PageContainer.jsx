@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Home from "../views/Home";
 import Pokemon from "../views/Pokemon";
 import PokemonCard from "../views/PokemonCard";
+import NotFound from "../views/NotFound";
 
 const PageContainer = () => {
 
@@ -16,6 +17,7 @@ const PageContainer = () => {
         <Route path="/" element={<Home/>}/>
         <Route path="/pokemon" element={<Pokemon/>}/>
         <Route path="/pokemon/:name" element={<PokemonCard/>}/>
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
     </BrowserRouter>
 
